@@ -1,0 +1,74 @@
+body, h1, p {
+    margin: 10;
+    padding: 0;
+    background-size: cover;
+}
+
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: #0074D9;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+/* Navigation menu */
+nav {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 0.5rem;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 1rem;
+}
+
+/* Main content area */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: #fff;
+    box-shadow: 4 40px 30px rgba(0, 0, 0, 0.1);
+    opacity: 70%;
+}
+
+.ab{
+    color: #f9f9f9;
+}
+
+/* Blog post styling */
+.blog-post {
+    margin-bottom: 2rem;
+}
+
+.blog-post h2 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.blog-post p {
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #333;
+    color: #fff;
+}
